@@ -43,6 +43,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/button/button",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "按钮的基本应用",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",  // 导航栏标题颜色
