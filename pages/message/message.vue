@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<h1>Message</h1>
+		<h1>{{ title }}</h1>
 	</view>
 </template>
 
@@ -8,7 +8,7 @@
 	export default {
 		data() {
 			return {
-				
+				title: "Message"
 			}
 		},
 		methods: {
