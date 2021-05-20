@@ -52,6 +52,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/image/image",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图片基本使用",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",  // 导航栏标题颜色
