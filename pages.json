@@ -2,15 +2,86 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
+			"style" :
+			{
+				"navigationBarTitleText": "首页",
+				"h5": {
+					"pullToRefresh": {
+						"color":"#7CCD7C"
+					}
+				}
+			}
+		},
+		{
+			"path" : "pages/message/message",
+			// 页面局部样式
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "信息",
+				"h5": {
+					"pullToRefresh": {
+						"color":"#7CCD7C"
+					}
+				}
 			}
 		}
-	],
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/hover-active/hover-active",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "view的基本应用",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/button/button",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "按钮的基本应用",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "white",  // 导航栏标题颜色
+		"navigationBarTitleText": "Hello - Uniapp",  // 导航栏标题文字内容
+		"navigationBarBackgroundColor": "#007AFF",  // 导航栏背景颜色
+		"backgroundColor": "#7CCD7C",  // 窗口背景颜色
+		"enablePullDownRefresh": true, // 是否开启下拉刷新
+		"backgroundTextStyle":"dark" // 下拉loading的样式
+	},
+	"tabBar": {
+		"backgroundColor":"#ffffff",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/home-active.png"
+			},
+			{
+				"text": "信息",
+				"pagePath":"pages/message/message",
+				"iconPath":"static/tabbar/message.png",
+				"selectedIconPath":"static/tabbar/message-active.png"
+			},
+			{
+				"text": "联系我们",
+				"pagePath":"pages/contact/contact",
+				"iconPath":"static/tabbar/user.png",
+				"selectedIconPath":"static/tabbar/user-active.png"
+			}
+		]
 	}
 }

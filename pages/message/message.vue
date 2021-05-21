@@ -1,6 +1,6 @@
 <template>
 	<view>
-	        <h1>{{ title }}</h1>
+		<h1>{{ title }}</h1>
 	</view>
 </template>
 
@@ -8,18 +8,15 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: "Message"
 			}
 		},
-		onLoad() {
-
-		},
 		methods: {
-
+			
 		}
 	}
 </script>
 
 <style>
-	
+
 </style>
