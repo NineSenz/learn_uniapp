@@ -61,6 +61,16 @@
             }
             
         }
+        ,{
+            "path" : "pages/uni-style/uni-style",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "页面样式",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#00ff00"
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",  // 导航栏标题颜色
