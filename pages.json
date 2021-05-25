@@ -52,6 +52,34 @@
             }
             
         }
+        ,{
+            "path" : "pages/image/image",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图片基本使用",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/uni-style/uni-style",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "页面样式",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#00ff00"
+            }
+            
+        }
+        ,{
+            "path" : "pages/click/click",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",  // 导航栏标题颜色
