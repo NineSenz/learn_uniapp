@@ -79,7 +79,14 @@
                 "enablePullDownRefresh": false
             }
             
-        }
+        },
+		{
+			"path": "pages/list/list",
+			"style":{
+				"navigationBarTitleText":"下拉刷新",
+				"enablePullDownRefresh": true
+			}
+		}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",  // 导航栏标题颜色
