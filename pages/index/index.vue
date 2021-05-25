@@ -12,7 +12,16 @@
 			}
 		},
 		onLoad() {
-
+			console.log("页面加载了")
+		},
+		onShow() {
+			console.log("页面显示了")
+		},
+		onHide() {
+			console.log("页面隐藏了")
+		},
+		onReady() {
+			console.log("页面初次渲染完成")
 		},
 		methods: {
 
