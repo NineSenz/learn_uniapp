@@ -87,6 +87,15 @@
 				"enablePullDownRefresh": true
 			}
 		}
+        ,{
+            "path" : "pages/request/request",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",  // 导航栏标题颜色
