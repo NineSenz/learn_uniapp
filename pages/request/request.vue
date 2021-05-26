@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<button type="primary" size="mini" @click="sendGet">发送请求</button>
+		<button @click="sendGet">发送请求</button>
 	</view>
 </template>
 
